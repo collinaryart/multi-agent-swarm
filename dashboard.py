@@ -1,4 +1,7 @@
 import streamlit as st
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = pysqlite3
 from crewai import Agent, Task, Crew
 from langchain_anthropic import ChatAnthropic
 from langchain_openai import ChatOpenAI
