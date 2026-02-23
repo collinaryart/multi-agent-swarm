@@ -1,6 +1,6 @@
 # AI Support Teammate Swarm
 
-**Exactly matched to the btrmnt.ai "Vibe Coder" JD**: Codex-speed delivery, OpenAI Agents SDK orchestration, multi-agent swarms, MCP tool calling, RAG grounding, and deployment-ready ops posture.
+Codex-speed delivery, OpenAI Agents SDK orchestration, multi-agent swarms, MCP tool calling, RAG grounding, and deployment-ready ops posture.
 
 This repo implements a complete AI ops/support worker as a **4-agent swarm**:
 
@@ -9,7 +9,6 @@ This repo implements a complete AI ops/support worker as a **4-agent swarm**:
 - **Response Agent**: drafts a personalized customer reply with next actions.
 - **Escalation Agent**: decides autonomous resolution vs specialist/human handoff.
 
-## Why this exactly matches btrmnt JD
 
 - **OpenAI Agents SDK orchestration** with direct imports from `agents`: `Agent`, `Runner`, and `handoff`.
 - **4-agent swarm architecture** mirroring real AI support workers: triage, research, response, escalation.
@@ -114,8 +113,3 @@ Example demo flow:
    - Start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
 4. Add env var `OPENAI_API_KEY` (optional but recommended).
 5. Add env var `MCP_SERVER_URL` when demonstrating external workflow orchestration.
-
-## Suggested folio framing
-
-In your portfolio, position this as:
-> "A production-minded AI support teammate swarm for enterprise ops, with autonomous triage/research/response/escalation, RAG grounding, and deployable FastAPI service."
