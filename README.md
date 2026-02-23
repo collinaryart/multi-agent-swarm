@@ -1,7 +1,5 @@
 # AI Support Teammate Swarm
 
-Codex-speed delivery, OpenAI Agents SDK orchestration, multi-agent swarms, MCP tool calling, RAG grounding, and deployment-ready ops posture.
-
 This repo implements a complete AI ops/support worker as a **4-agent swarm**:
 
 - **Triage Agent**: receives ticket and classifies urgency/SLA.
