@@ -29,7 +29,6 @@ logger = logging.getLogger(__name__)
 app = FastAPI(
     title="AI Support Teammate Swarm",
     description=(
-        "Portfolio project for Btrmnt.ai Vibe Coder role: "
         "4-agent support swarm (Triage, Research, Response, Escalation) "
         "with OpenAI Agents SDK handoffs, MCP integration, and live Swagger demo."
     ),
